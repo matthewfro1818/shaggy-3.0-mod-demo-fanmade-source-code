@@ -35,8 +35,8 @@ jobs:
           sudo apt-get install libvlc-dev
           sudo apt-get install libvlccore-dev
           haxelib setup ~/haxelib
+          haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib install hxcpp > /dev/null --quiet
-          haxelib install discord_rpc
           haxe -cp ./setup -D analyzer-optimize -main Main --interp
       - name: Skip SScript setup mode
         run: echo 'oy9:showMacroty8:loopCosti25y10:includeAllfg' >> ~/settings.cocoa
